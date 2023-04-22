@@ -8,7 +8,7 @@ builds:
     - windows
     - darwin
     goarch:
-    - amd64
+    - amd64 Hello all
     - arm64
 dockers:
   - image_templates: ["trufflesecurity/{{ .ProjectName }}:{{ .Version }}-amd64"]
